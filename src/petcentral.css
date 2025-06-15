@@ -1,0 +1,20 @@
+.pet-central-nav{
+    position: relative;
+}
+
+.pet-central-links {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 20px 20px 40px 26px 20px 25px 25px 60px 25px 20px 19px 20px 25px 24px 25px 30px;
+    gap: 5px;
+    z-index: 200;
+    top: 10px;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.pet-central-link-inventory{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0,0,0,.5);
+}

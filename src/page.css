@@ -1,0 +1,17 @@
+.page-font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+/* Alignment utility classes */
+.text-center {
+    text-align: center;
+  margin:  auto;
+  width: fit-content; 
+
+}
+
+.text-left {
+    text-align: left;
+}
+

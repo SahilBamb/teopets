@@ -1,0 +1,24 @@
+.create-pet-description{
+    font-family: verdana,arial,helvetica;
+    font-size: 12px;
+}
+
+.create-pet-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 4 equal columns */
+}
+
+.create-pet-box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    padding-bottom:20px;
+}
+.create-pet-box p {
+    margin: 4px;
+    font-family: verdana,arial,helvetica;
+    font-size: 12px;
+}
+    

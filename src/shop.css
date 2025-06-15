@@ -1,0 +1,51 @@
+.shop {
+    height: 100vh;
+    text-align: center;
+    font-family: verdana, arial, helvetica;
+}
+
+.shop-title-breadcrumb {
+    text-align: start
+}
+
+.shop-title {
+
+    font-weight: bold;
+    font-size: 13.3333px;
+    align-items: center;
+    justify-content: right;
+}
+
+.shop-description {
+    font-size: 12px;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: static;
+    font-size: 12px;
+    width: 25%;
+}
+
+.item-info p {
+    margin: 0 0 2px 0; /* Remove default margins, add small 2px bottom margin */
+    font-size: 14px;
+
+}
+
+.item-image {
+    border: 1px solid black;
+}
+
+.item-name {
+    font-weight: bold;
+    font-size: 13.3333px;
+}
+
+.line {
+    margin: 20px;
+}

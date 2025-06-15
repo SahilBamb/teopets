@@ -1,0 +1,40 @@
+.bank-details p {
+    margin: auto;
+}
+
+.bank-deposit-input {
+    width: 300px;
+    min-height: 50px; /* Allow elements to expand vertically as needed */
+}
+
+.bank-input-top{
+    background-color: #ffffcc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+
+.bank-input{
+    background-color: #dddd77;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.bank-input-upgrade{
+    background-color: #dddd77;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+
+button.withdraw, button.deposit{
+    padding: 8px;
+}
